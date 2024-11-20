@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/equationTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/coefficientAInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Коефіцієнт a" />
+
+        <EditText
+            android:id="@+id/coefficientBInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Коефіцієнт b" />
+
+        <EditText
+            android:id="@+id/coefficientCInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Коефіцієнт c" />
+
+        <EditText
+            android:id="@+id/leftBoundInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ліва межа" />
+
+        <EditText
+            android:id="@+id/rightBoundInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Права межа" />
+
+        <EditText
+            android:id="@+id/toleranceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Точність" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Розрахувати" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зберегти" />
+
+        <Button
+            android:id="@+id/loadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Завантажити" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

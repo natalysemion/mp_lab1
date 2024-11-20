@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1Mobile</string>
+
+    <string-array name="equation_types">
+        <item>Лінійне (ax + b = 0)</item>
+        <item>Квадратне (ax^2 + bx + c = 0)</item>
+        <item>ax^3 + bx + c = 0 (метод бісекції)</item>
+    </string-array>
+</resources>
